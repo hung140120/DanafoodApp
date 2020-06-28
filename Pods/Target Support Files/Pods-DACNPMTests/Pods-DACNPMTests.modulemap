@@ -1,0 +1,6 @@
+framework module Pods_DACNPMTests {
+  umbrella header "Pods-DACNPMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

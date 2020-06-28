@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopProductsCollectionViewCell" customModule="DACNPM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="199"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="199"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBa-Xm-sxt">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="199"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TomSu" translatesAutoresizingMaskIntoConstraints="NO" id="Mai-Ho-8lf">
+                                <rect key="frame" x="5" y="5" width="155" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="Zty-OH-d5k"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tôm sú biển" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmH-5E-oah">
+                                <rect key="frame" x="20" y="131" width="125" height="17"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.530.000đ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUM-iD-Z3c">
+                                <rect key="frame" x="20" y="163" width="125" height="14.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.94117647059999998" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.61960784310000006" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dmH-5E-oah" secondAttribute="trailing" constant="20" id="7cW-HD-fFX"/>
+                            <constraint firstItem="dmH-5E-oah" firstAttribute="top" secondItem="Mai-Ho-8lf" secondAttribute="bottom" constant="5" id="8YI-Re-05m"/>
+                            <constraint firstItem="dUM-iD-Z3c" firstAttribute="leading" secondItem="eBa-Xm-sxt" secondAttribute="leading" constant="20" id="JPM-0u-cyj"/>
+                            <constraint firstItem="Mai-Ho-8lf" firstAttribute="top" secondItem="eBa-Xm-sxt" secondAttribute="top" constant="5" id="MVy-Sq-quU"/>
+                            <constraint firstItem="dUM-iD-Z3c" firstAttribute="top" secondItem="dmH-5E-oah" secondAttribute="bottom" constant="15" id="VYu-HD-k75"/>
+                            <constraint firstItem="dmH-5E-oah" firstAttribute="leading" secondItem="eBa-Xm-sxt" secondAttribute="leading" constant="20" id="bZQ-LW-8dY"/>
+                            <constraint firstAttribute="trailing" secondItem="Mai-Ho-8lf" secondAttribute="trailing" constant="5" id="oWR-du-L0m"/>
+                            <constraint firstItem="Mai-Ho-8lf" firstAttribute="leading" secondItem="eBa-Xm-sxt" secondAttribute="leading" constant="5" id="uuY-fh-MdA"/>
+                            <constraint firstAttribute="trailing" secondItem="dUM-iD-Z3c" secondAttribute="trailing" constant="20" id="ycc-Wd-ZOT"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isMask" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eBa-Xm-sxt" secondAttribute="trailing" id="1gh-bS-SLm"/>
+                <constraint firstAttribute="bottom" secondItem="eBa-Xm-sxt" secondAttribute="bottom" id="Chq-c6-PvO"/>
+                <constraint firstItem="eBa-Xm-sxt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GL1-J1-oBw"/>
+                <constraint firstItem="eBa-Xm-sxt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Nds-aZ-ak7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="275" height="98"/>
+            <connections>
+                <outlet property="imagePost" destination="Mai-Ho-8lf" id="JSs-cX-ePq"/>
+                <outlet property="nameLabel" destination="dmH-5E-oah" id="L0x-RZ-3cT"/>
+                <outlet property="priceLabel" destination="dUM-iD-Z3c" id="Fg5-wh-h1a"/>
+            </connections>
+            <point key="canvasLocation" x="-50.000000000000007" y="77.678571428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="TomSu" width="148" height="121.5"/>
+    </resources>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ProductConfirmTableViewCell" customModule="DACNPM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomSuBien" translatesAutoresizingMaskIntoConstraints="NO" id="qhw-Sr-e57">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="vRR-oz-3e5"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1nA-0l-M8e">
+                        <rect key="frame" x="170" y="0.0" width="150" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TÔM SÚ BIỂN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVS-ey-cMh">
+                                <rect key="frame" x="30" y="30" width="98.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.530.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvu-qq-fMb">
+                                <rect key="frame" x="30" y="91" width="73" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.61960784310000006" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBb-oL-r2T">
+                                <rect key="frame" x="20" y="130" width="110" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SL:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMs-1x-f3D">
+                                        <rect key="frame" x="0.0" y="0.0" width="55" height="30"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wy-CM-3an">
+                                        <rect key="frame" x="55" y="0.0" width="55" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5wy-CM-3an" firstAttribute="width" secondItem="CMs-1x-f3D" secondAttribute="width" id="765-CL-G9k"/>
+                                    <constraint firstAttribute="width" secondItem="wBb-oL-r2T" secondAttribute="height" multiplier="110:30" id="8rf-3t-Enz"/>
+                                    <constraint firstAttribute="width" constant="110" id="PO9-yW-75e"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wBb-oL-r2T" firstAttribute="width" secondItem="wBb-oL-r2T" secondAttribute="height" multiplier="110:30" id="0Xi-G2-fsP"/>
+                            <constraint firstItem="wBb-oL-r2T" firstAttribute="top" secondItem="Wvu-qq-fMb" secondAttribute="bottom" constant="20" id="36E-6o-HOP"/>
+                            <constraint firstItem="wVS-ey-cMh" firstAttribute="top" secondItem="1nA-0l-M8e" secondAttribute="top" constant="30" id="4fn-hj-RRA"/>
+                            <constraint firstAttribute="bottom" secondItem="Wvu-qq-fMb" secondAttribute="bottom" constant="90" id="6fv-EL-Hgq"/>
+                            <constraint firstItem="wBb-oL-r2T" firstAttribute="centerX" secondItem="1nA-0l-M8e" secondAttribute="centerX" id="7nE-mb-XpO"/>
+                            <constraint firstItem="Wvu-qq-fMb" firstAttribute="leading" secondItem="1nA-0l-M8e" secondAttribute="leading" constant="30" id="Qdd-Ri-4YP"/>
+                            <constraint firstItem="wVS-ey-cMh" firstAttribute="leading" secondItem="1nA-0l-M8e" secondAttribute="leading" constant="30" id="dZi-QN-65I"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qhw-Sr-e57" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1Gu-da-24h"/>
+                    <constraint firstItem="1nA-0l-M8e" firstAttribute="leading" secondItem="qhw-Sr-e57" secondAttribute="trailing" id="9ON-J5-Y1N"/>
+                    <constraint firstAttribute="trailing" secondItem="1nA-0l-M8e" secondAttribute="trailing" id="Be6-OM-Qio"/>
+                    <constraint firstItem="1nA-0l-M8e" firstAttribute="leading" secondItem="qhw-Sr-e57" secondAttribute="trailing" id="YaA-DB-iJ6"/>
+                    <constraint firstItem="1nA-0l-M8e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hdu-H8-cyI"/>
+                    <constraint firstItem="1nA-0l-M8e" firstAttribute="leading" secondItem="qhw-Sr-e57" secondAttribute="trailing" id="kxE-Us-2w0"/>
+                    <constraint firstAttribute="bottom" secondItem="qhw-Sr-e57" secondAttribute="bottom" id="kyl-6I-cGp"/>
+                    <constraint firstItem="qhw-Sr-e57" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xFx-Y3-6K9"/>
+                    <constraint firstAttribute="bottom" secondItem="1nA-0l-M8e" secondAttribute="bottom" id="yiH-3Q-y6f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="5wy-CM-3an" id="PIV-Za-Kdg"/>
+                <outlet property="displayImage" destination="qhw-Sr-e57" id="6zK-oC-qP8"/>
+                <outlet property="nameLabel" destination="wVS-ey-cMh" id="UAx-Bm-gmu"/>
+                <outlet property="priceLabel" destination="Wvu-qq-fMb" id="3FS-tf-azT"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="88"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tomSuBien" width="141" height="174.5"/>
+    </resources>
+</document>
